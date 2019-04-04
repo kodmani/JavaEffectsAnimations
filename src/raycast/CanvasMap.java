@@ -92,9 +92,6 @@ public class CanvasMap {
         return drawFPS;
     }
 
-    /**
-     * create the property class variables functions here
-     */
     public AbstractAnimator getAnimator() {
         return animator;
     }
