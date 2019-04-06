@@ -101,8 +101,6 @@ public class RectangleBounds implements DrawableObject<RectangleBounds> {
     }
 
     public boolean contains(double x, double y) {
-        //if given x and y are bigger and equal to x() and y()
-        //and if x and y are smaller and equal to x()+w() and y+h()
         return x >= x() && x <= wPos() && y >= y() && y <= hPos();
     }
 
